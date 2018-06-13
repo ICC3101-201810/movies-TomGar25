@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
+    [Serializable]
     public class Personas
     {
         bool actor, director, productor;

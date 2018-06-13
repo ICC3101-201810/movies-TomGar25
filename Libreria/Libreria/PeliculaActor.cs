@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
+    [Serializable]
     public class PeliculaActor
     {
         Peliculas pelicula;

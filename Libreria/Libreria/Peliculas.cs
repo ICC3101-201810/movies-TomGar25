@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
+    [Serializable]
     public class Peliculas
     {
         string Nombre, Fecha_Estreno, Descripcion, Presupuesto;
