@@ -12,9 +12,13 @@ namespace Libreria
 {
     public partial class Main : Form
     {
+        BaseDatos bs = new BaseDatos();
+        
         public Main()
         {
             InitializeComponent();
+            
+ 
         }
 
 
@@ -31,6 +35,7 @@ namespace Libreria
         private void button1_Click(object sender, EventArgs e)
         {
             string barra = Searching.Text;
+            
         }
 
         private void button3_Click(object sender, EventArgs e)

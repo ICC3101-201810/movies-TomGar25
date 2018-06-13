@@ -15,5 +15,17 @@ namespace Libreria
             Direccion = d;
             FechaA = f;
         }
+        public string getName()
+        {
+            return this.Nombre;
+        }
+        public string getDireccion()
+        {
+            return this.Direccion;
+        }
+        public string getFechaA()
+        {
+            return this.FechaA;
+        }
     }
 }

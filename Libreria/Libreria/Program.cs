@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace Libreria
 {
@@ -16,7 +17,11 @@ namespace Libreria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Inicio2 sd = new Inicio2();
+
+            
             Application.Run(new Main());
         }
+
     }
 }

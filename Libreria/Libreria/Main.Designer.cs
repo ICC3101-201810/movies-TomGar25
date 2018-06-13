@@ -35,6 +35,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.Searching = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -91,12 +92,12 @@
             // 
             this.Searching.Location = new System.Drawing.Point(28, 51);
             this.Searching.Name = "Searching";
-            this.Searching.Size = new System.Drawing.Size(447, 20);
+            this.Searching.Size = new System.Drawing.Size(539, 20);
             this.Searching.TabIndex = 5;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(459, 128);
+            this.button6.Location = new System.Drawing.Point(560, 128);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(38, 24);
             this.button6.TabIndex = 6;
@@ -104,11 +105,21 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(482, 91);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(85, 24);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Cualquiera";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 164);
+            this.ClientSize = new System.Drawing.Size(610, 164);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.Searching);
             this.Controls.Add(this.button5);
@@ -117,6 +128,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -132,5 +144,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox Searching;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

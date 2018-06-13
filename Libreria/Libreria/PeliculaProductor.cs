@@ -15,5 +15,13 @@ namespace Libreria
             pelicula = peli;
             Productor = Prod;
         }
+        public Peliculas getPelicula()
+        {
+            return this.pelicula;
+        }
+        public Personas getProductor()
+        {
+            return this.Productor;
+        }
     }
 }

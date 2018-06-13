@@ -23,6 +23,35 @@ namespace Libreria
             director = direc;
             productor = prod;
         }
+        public string getName()
+        {
+            return this.Nombre;
+        }
+        public string getApellido()
+        {
+            return this.Apellido;
+        }
+        public string getFechaN()
+        {
+            return this.FechaN;
+        }
+        public string getBiografia()
+        {
+            return this.Biografia;
+        }
+        public bool getActor()
+        {
+            return this.actor;
+        }
+        public bool getDirector()
+        {
+            return this.director;
+        }
+        public bool getProductor()
+        {
+            return this.productor;
+        }
+
     }
 
 }

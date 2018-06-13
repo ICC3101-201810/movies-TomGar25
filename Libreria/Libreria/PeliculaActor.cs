@@ -15,5 +15,13 @@ namespace Libreria
             pelicula = peli;
             actor = act;
         }
+        public Peliculas getPelicula()
+        {
+            return this.pelicula;
+        }
+        public Personas getActorr()
+        {
+            return this.actor;
+        }
     }
 }

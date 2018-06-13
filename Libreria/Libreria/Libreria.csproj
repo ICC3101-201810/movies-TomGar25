@@ -47,11 +47,11 @@
   <ItemGroup>
     <Compile Include="BaseDatos.cs" />
     <Compile Include="Estudios.cs" />
-    <Compile Include="Inicio.cs">
+    <Compile Include="Inicio2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Inicio.Designer.cs">
-      <DependentUpon>Inicio.cs</DependentUpon>
+    <Compile Include="Inicio2.Designer.cs">
+      <DependentUpon>Inicio2.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -66,8 +66,8 @@
     <Compile Include="Personas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Inicio.resx">
-      <DependentUpon>Inicio.cs</DependentUpon>
+    <EmbeddedResource Include="Inicio2.resx">
+      <DependentUpon>Inicio2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
