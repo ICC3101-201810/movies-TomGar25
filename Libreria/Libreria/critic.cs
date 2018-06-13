@@ -43,6 +43,7 @@ namespace Libreria
             {
                 db.Criticas.Add(new Critica(TB.Text, CRIT.Text, item));
             }
+            this.Close();
         }
     }
 }
