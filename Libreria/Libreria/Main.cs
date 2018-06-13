@@ -16,7 +16,7 @@ namespace Libreria
         
         public Main()
         {
-            Metodos.deserializarPelis();
+            //Metodos.deserializarPelis();
             InitializeComponent();
             db.informacion();
             
@@ -221,7 +221,8 @@ namespace Libreria
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            critic nn = new critic();
+            nn.Show();
         }
     }
 }

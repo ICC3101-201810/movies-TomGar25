@@ -20,3 +20,4 @@ C:\Users\Tomas Garcia\Desktop\movies-TomGar25\Libreria\Libreria\obj\Debug\Librer
 C:\Users\Tomas Garcia\Desktop\movies-TomGar25\Libreria\Libreria\obj\Debug\Libreria.exe
 C:\Users\Tomas Garcia\Desktop\movies-TomGar25\Libreria\Libreria\obj\Debug\Libreria.pdb
 C:\Users\Tomas Garcia\Desktop\movies-TomGar25\Libreria\Libreria\obj\Debug\Libreria.Inicio2.resources
+C:\Users\Tomas Garcia\Desktop\movies-TomGar25\Libreria\Libreria\obj\Debug\Libreria.critic.resources

@@ -73,6 +73,9 @@
     <Compile Include="Personas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="critic.resx">
+      <DependentUpon>critic.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio2.resx">
       <DependentUpon>Inicio2.cs</DependentUpon>
     </EmbeddedResource>

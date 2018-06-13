@@ -19,6 +19,7 @@ namespace Libreria
         public List<Personas> people1= new List<Personas>();
         public List<Personas> people2 = new List<Personas>();
         public List<Personas> people3 = new List<Personas>();
+        public List<Critica> Criticas = new List<Critica>();
 
 
         public BaseDatos()

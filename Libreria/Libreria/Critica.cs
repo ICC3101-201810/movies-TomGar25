@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Libreria
 {
-    class Critica
+    public class Critica
     {
         public Peliculas peli;
         public string emisor, mensaje;
